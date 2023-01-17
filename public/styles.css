@@ -1,0 +1,77 @@
+.workspace {
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: Montserrat;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  flex: auto;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.nav-pane {
+  position: fixed;
+  flex: none;
+  left: 0;
+  top: 0;
+  background-color: #111111;
+  width: 200px;
+  height: 100%;
+}
+
+.nav-button {
+  display: flex;
+  border: 1px solid green;
+  padding: 10px 50px;
+  color: white;
+  font-size: 10px;
+  display: flex;
+}
+
+.nav-button-icon {
+  border: 1px solid green;
+  width: 20px;
+  height: 100%;
+}
+
+.nav-button-text {
+  border: 1px solid green;
+}
+
+.nav-button-notification {
+  position: absolute;
+  right: 20px;
+  border: 1px solid green;
+  width: 20px;
+}
+
+.tracking-pane {
+  flex: initial;
+  background-color: black;
+  width: 600px;
+  height: 100%;
+}
+
+.info-pane {
+  flex: auto;
+  background-color: #111111;
+  height: 100%;
+}
+
+.footer {
+  position: fixed;
+  flex: none;
+  background-color: blue;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 22px;
+}
